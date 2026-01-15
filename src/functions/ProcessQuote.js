@@ -39,6 +39,7 @@ app.http('ProcessQuote', {
         return {
             status: 200,
             jsonBody: {
+                message: "CI/CD working successfully 🚀",
                 riskScore,
                 estimatedPremium: premium,
                 processingStatus: "Auto-approved"
