@@ -68,6 +68,7 @@ jobs:
         id: fa
         with:
           app-name: 'insuranceQuoteFunc'
-          slot-name: 'Production'
-          package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+          package: .
+          
+
           
